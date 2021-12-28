@@ -1,11 +1,11 @@
-﻿import math
+import math
 import NXOpen
 import NXOpen.Annotations
 import NXOpen.Drafting
 import NXOpen.Drawings
 import NXOpen.MenuBar
 def main() : 
-
+    """" absatz in die masshilfslinen hinzufuegen """
     theSession  = NXOpen.Session.GetSession()
     workPart = theSession.Parts.Work
     displayPart = theSession.Parts.Display
